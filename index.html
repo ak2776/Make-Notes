@@ -53,6 +53,15 @@
       <h2>Welcome to Make Notes</h2>
       <div class="card">
         <div class="card-body">
+          <div class="mb-3">
+            <h6 class="card-title">Add title</h6>
+            <input
+              type="text"
+              class="form-control"
+              id="addTitle"
+              placeholder="Add title"
+            />
+          </div>
           <h5 class="card-title">Add new note</h5>
           <div class="form-floating">
             <textarea
@@ -62,13 +71,13 @@
               style="height: 100px"
             ></textarea>
           </div>
-          <br>
+          <br />
           <button class="btn btn-primary" id="addBtn">Add note</button>
         </div>
       </div>
-      <br>
+      <br />
       <h3>Your Notes</h3>
-      <hr>
+      <hr />
       <div id="notes" class="row container-fluid"></div>
     </div>
 
